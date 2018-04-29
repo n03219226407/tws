@@ -1,0 +1,196 @@
+body {
+    font-family: roboto;
+}
+
+.calendar p {
+    color: #566377;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
+
+.calendar h1 {
+    color: #566377;
+    font-size: 22px;
+    margin: 0;
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.newage {
+    background-color: #566377;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.br {
+    border: 1px solid #d5d8dd;
+}
+
+.pl {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.pr {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.tickets,
+.clock {
+    padding: 20px 20px 5px;
+}
+
+.tic h2 {
+    color: #922c8e;
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.tic,
+.bag,
+.text,
+.task,
+.hours,
+.dollar,
+.blue-dollar,
+.alertdollar,
+.uk-sells,
+.usa-sells {
+    margin-left: 10px;
+}
+
+.bag,
+.task {
+    padding-top: 15px;
+}
+
+.hand_bags,
+.tv {
+    padding: 11px 20px 5px;
+}
+
+.bag h2 {
+    color: #2c5871;
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.task h2 {
+    color: #0f4e9f;
+    font-size: 18px;
+    margin: 0;
+}
+
+.hand_bags p,
+.tv p {
+    margin: 0;
+}
+
+.hours h2 {
+    color: #1ab0be;
+    font-size: 18px;
+}
+
+.clock,
+.tv {
+    margin-top: 20px;
+}
+
+.dollar h2 {
+    color: #566737;
+    font-size: 18px;
+    margin: 0;
+}
+
+.dollarsbill {
+    padding: 20px;
+}
+
+.blue-dollar h2 {
+    color: #2aa4dc;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.alertdollar h2 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+    color: #38b5b6;
+}
+.uk-sells h2 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+    color: #0f4e9f;
+}
+.usa-sells h2 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+    color: #cb1540;
+}
+
+footer.foot{
+    background-color: #566377;
+    text-align: center;
+    color:white;
+    padding:25px;
+    margin-top: 20px;
+}
+.foot  p{
+    font-family: inherit;
+    margin-bottom: 0;
+}
+.no-padding{
+        padding: 0;
+    }
+ 
+/********* MEDIA QUERY ****************/
+
+@media only screen and (max-width: 991px){
+    .pr{
+            padding-left: 5px;
+    }
+    .pl{
+        padding-right: 5px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+    .pr{
+            padding-left: 0px;
+    }
+    .pl{
+        padding-right: 0;
+    }
+    #logo{
+        text-align: center;
+    }
+    .calendar{
+        text-align: center;
+    }
+    .mt-10{
+        margin-top: 10px;
+    }
+    .tv, .clock,.hand_bags{
+        margin-top: 10px;
+    }
+    .mt{
+        margin-top: 20px;
+    }
+}
